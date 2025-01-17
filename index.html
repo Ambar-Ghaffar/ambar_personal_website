@@ -138,17 +138,19 @@
             A sleek and informative website showcasing advanced therapeutic
             solutions, designed for a professional healthcare audience.
           </p>
-          <div class="btn">Review Projects</div>
+          <a href="https://www.illumiatherapeutics.com/ " class="btn"
+            >Review Projects</a
+          >
         </div>
 
         <div class="projects-card">
           <img src="project2.png" alt="" />
           <h3>Project 2</h3>
           <p>
-            A visually captivating website for a beautiful photography and videography
-            studio specializing in couples' moments.
+            A visually captivating website for a beautiful photography and
+            videography studio specializing in couples' moments.
           </p>
-          <div class="btn">Review Projects</div>
+          <a href="https://elmoakstudio.com/  " class="btn">Review Projects</a>
         </div>
 
         <div class="projects-card">
@@ -158,15 +160,17 @@
             An immersive website created for a gaming platform, highlighting
             cutting-edge gaming experiences and services.
           </p>
-          <div class="btn">Review Projects</div>
+          <a href="https://infinity.dststage.com/" class="btn"
+            >Review Projects</a
+          >
         </div>
 
-        <!-- <div class="projects-card">
-          <img src="project3.png" alt="" />
+        <div class="projects-card">
+          <img src="project4.png" alt="" />
           <h3>Project 4</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            quod, quae, quos, quas quia quibusdam
+            A premium website for leading car customization brand, showcasing
+            expertise in full car customization and automotive excellence.
           </p>
           <div class="btn">Review Projects</div>
         </div>
@@ -175,8 +179,8 @@
           <img src="project5.png" alt="" />
           <h3>Project 5</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            quod, quae, quos, quas quia quibusdam
+            A specialized tax advisory website tailored for active day traders,
+            providing compliance and advisory services across the U.S.
           </p>
           <div class="btn">Review Projects</div>
         </div>
@@ -185,35 +189,44 @@
           <img src="project6.png" alt="" />
           <h3>Project 6</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            quod, quae, quos, quas quia quibusdam
+            A reliable website offering professional mobile phone
+            and computer equipment services with a focus on quality and
+            speed.
           </p>
           <div class="btn">Review Projects</div>
-        </div> -->
+        </div>
       </div>
     </section>
 
     <section class="contact" id="contact">
       <h2 class="heading">Contact <span> Me </span></h2>
-      <form action="#">
+      <form action="http://your-backend-url/send-message" method="POST">
         <div class="input-group">
           <div class="input-box">
-            <input type="text" placeholder="Full Name" />
-            <input type="email" placeholder="Email" />
+            <input
+              type="text"
+              name="fullName"
+              placeholder="Full Name"
+              required
+            />
+            <input type="email" name="email" placeholder="Email" required />
           </div>
           <div class="input-box">
-            <input type="number" placeholder="Phone Number" />
-            <input type="text" placeholder="Subject" />
+            <input
+              type="number"
+              name="phoneNumber"
+              placeholder="Phone Number"
+            />
+            <input type="text" name="subject" placeholder="Subject" />
           </div>
         </div>
-
         <div class="input-group-2">
           <textarea
-            name=""
-            id=""
+            name="message"
             placeholder="Your Message"
             cols="30"
             rows="10"
+            required
           ></textarea>
           <input type="submit" value="Send Message" class="btn" />
         </div>
