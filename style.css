@@ -449,6 +449,7 @@ section {
     margin: 2rem 0;
   }
   .about img{
+    display:none;
     width: 52vw;
   }
 
